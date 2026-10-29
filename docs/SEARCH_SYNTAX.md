@@ -1,6 +1,6 @@
 # Search syntax
 
-This document describes the ANTLR web query language, version 1. The grammar and portable fixtures live in [grammar](../grammar/README.md). Android has its own implementation in [ants-android](https://github.com/dergigi/ants-android), using the same grammar and portable fixtures. This document describes web behavior; platform-specific aliases and release versions may differ.
+This document describes the ANTLR web query language, version 1. The grammar and portable fixtures live in [grammar](../grammar/README.md). Android has its own implementation in [ants-android](https://github.com/nostr-search/ants-android), using the same grammar and portable fixtures. This document describes web behavior; platform-specific aliases and release versions may differ.
 
 ## Start here
 

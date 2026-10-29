@@ -22,7 +22,7 @@ The application never executes ANTLR's recovered parse tree: the first lexer/par
 
 ## Android interoperability
 
-Android already has its own implementation in [ants-android](https://github.com/dergigi/ants-android). This PR changes web only. The grammar and portable fixtures were compared with Android commit `4e3353b9741b8b030c4f9d438d7607a07c33a8da` and match. Consume this directory at a pinned repository commit; the grammar version and commit together identify the source artifact. Generate Java with the same jar:
+Android already has its own implementation in [ants-android](https://github.com/nostr-search/ants-android). This PR changes web only. The grammar and portable fixtures were compared with Android commit `4e3353b9741b8b030c4f9d438d7607a07c33a8da` and match. Consume this directory at a pinned repository commit; the grammar version and commit together identify the source artifact. Generate Java with the same jar:
 
 ```sh
 java -jar .cache/antlr/antlr-4.13.2-complete.jar \

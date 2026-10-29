@@ -17,7 +17,7 @@ export function Footer() {
   const handleGitHubExternalClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    window.open('https://github.com/dergigi/ants/issues/new', '_blank', 'noopener,noreferrer');
+    window.open('https://github.com/nostr-search/ants/issues/new', '_blank', 'noopener,noreferrer');
   };
 
   return (
