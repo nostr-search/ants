@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Pin the search smoke workflow to Ubuntu 24.04, supported by the current Playwright version.
+
 ### Changed
 
 - Move GitHub repositories to the nostr-search organization and update repository, release, and issue links.
