@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "./page.module.css";
 
 const storeUrl = "https://zapstore.dev/apps/org.dergigi.ants";
-const releasesUrl = "https://github.com/dergigi/ants-android/releases/latest";
+const releasesUrl = "https://github.com/nostr-search/ants-android/releases/latest";
 const description =
   "Fast, native Nostr search for Android. Powerful query syntax, a shared ANTLR grammar, and Vertex-powered profile discovery. No account required.";
 
@@ -319,7 +319,7 @@ export default function AndroidPage() {
             fixtures. Explore how the language works, inspect the native app, or
             help improve both. It’s all open source.
           </p>
-          <a href="https://github.com/dergigi/ants-android">
+          <a href="https://github.com/nostr-search/ants-android">
             Take a look under the hood <span aria-hidden="true">↗</span>
           </a>
         </div>

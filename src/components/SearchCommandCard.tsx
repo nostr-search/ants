@@ -49,7 +49,7 @@ export default function SearchCommandCard({ topCommandText, helpCommands, topExa
                   <div>&nbsp;</div>
                   <div className="flex items-center gap-2">
                     <a
-                      href={`https://github.com/dergigi/ants/releases/tag/v${packageJson.version}`}
+                      href={`https://github.com/nostr-search/ants/releases/tag/v${packageJson.version}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"
@@ -57,7 +57,7 @@ export default function SearchCommandCard({ topCommandText, helpCommands, topExa
                       v{packageJson.version}
                     </a>
                     <a
-                      href={`https://github.com/dergigi/ants/commit/${process.env.NEXT_PUBLIC_GIT_COMMIT || 'unknown'}`}
+                      href={`https://github.com/nostr-search/ants/commit/${process.env.NEXT_PUBLIC_GIT_COMMIT || 'unknown'}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"
